@@ -26,11 +26,12 @@ function Hero({ sectionId }: Props) {
             </h2>
 
             <p className="font-sora text-base font-normal text-zinc-500">
-              I&apos;m Aditya Pawar Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to specimen
-              book.
+              I am passionate about building robust and scalable web
+              applications. With expertise in both front-end and back-end
+              development, I create seamless and user-friendly experiences. I
+              thrive in dynamic environments and am always eager to tackle new
+              challenges and learn new technologies. Let&apos;s collaborate to
+              turn your ideas into reality!
             </p>
           </div>
         </div>
@@ -55,11 +56,12 @@ function Hero({ sectionId }: Props) {
             </h2>
 
             <p className="font-sora text-base font-normal text-zinc-500">
-              I&apos;m Aditya Pawar Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry&apos;s standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to specimen
-              book.
+              I am passionate about building robust and scalable web
+              applications. With expertise in both front-end and back-end
+              development, I create seamless and user-friendly experiences. I
+              thrive in dynamic environments and am always eager to tackle new
+              challenges and learn new technologies. Let&apos;s collaborate to
+              turn your ideas into reality!
             </p>
           </div>
         </div>
@@ -93,11 +95,12 @@ function Hero({ sectionId }: Props) {
           </h2>
 
           <p className="font-sora text-sm font-normal text-zinc-500">
-            I&apos;m Aditya Pawar Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been the
-            industry&apos;s standard dummy text ever since the 1500s, when an
-            unknown printer took a galley of type and scrambled it to specimen
-            book.
+            I am passionate about building robust and scalable web applications.
+            With expertise in both front-end and back-end development, I create
+            seamless and user-friendly experiences. I thrive in dynamic
+            environments and am always eager to tackle new challenges and learn
+            new technologies. Let&apos;s collaborate to turn your ideas into
+            reality!
           </p>
         </div>
       </div>

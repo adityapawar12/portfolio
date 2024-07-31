@@ -13,7 +13,7 @@ function SkillCard({ imageURL, skillName }: Props) {
         <Image
           src={imageURL}
           alt={`${skillName} Image`}
-          className="mt-4 sm:mt-8 max-w-md mx-auto"
+          className="mt-4 sm:mt-8 max-w-md mx-auto h-14 w-14"
           width={56}
           height={56}
         />

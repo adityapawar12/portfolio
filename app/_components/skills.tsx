@@ -15,28 +15,77 @@ function Skills({ sectionId }: Props) {
 
           <div className="py-14 xl:py-16 grid grid-cols-5 gap-8">
             <SkillCard
-              imageURL="/landing-page/skills-js.svg"
+              imageURL="/landing-page/skills/skills-javascript-logo.svg"
               skillName="JavaScript"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-git.svg"
+              imageURL="/landing-page/skills/skills-typescript-logo.svg"
+              skillName="TypeScript"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-react-logo.svg"
+              skillName="React JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-nextjs-logo.svg"
+              skillName="Next JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-nodejs-logo.svg"
+              skillName="Node JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-expressjs-logo.svg"
+              skillName="Express JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-postgresql-logo.svg"
+              skillName="PostgreSQL"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-mongodb-logo.svg"
+              skillName="MongoDB"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-git-logo.svg"
               skillName="Git"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-socketio.svg"
+              imageURL="/landing-page/skills/skills-angular-logo.svg"
+              skillName="Angular 2+"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-html-logo.svg"
+              skillName="HTML 5"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-css-logo.svg"
+              skillName="CSS 3"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-tailwind-logo.svg"
+              skillName="Tailwind CSS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-bootstrap-logo.svg"
+              skillName="Bootstrap 4"
+            />
+            <SkillCard
+              imageURL="/landing-page/skills/skills-socketio-logo.svg"
               skillName="Socket IO"
-            />
-
-            <SkillCard
-              imageURL="/landing-page/skills-sass.svg"
-              skillName="Sass"
-            />
-
-            <SkillCard
-              imageURL="/landing-page/skills-storybook.svg"
-              skillName="Storybook"
             />
           </div>
         </div>
@@ -50,28 +99,77 @@ function Skills({ sectionId }: Props) {
 
           <div className="py-5 sm:py-8 md:py-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-8">
             <SkillCard
-              imageURL="/landing-page/skills-js.svg"
+              imageURL="/landing-page/skills/skills-javascript-logo.svg"
               skillName="JavaScript"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-git.svg"
+              imageURL="/landing-page/skills/skills-typescript-logo.svg"
+              skillName="TypeScript"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-react-logo.svg"
+              skillName="React JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-nextjs-logo.svg"
+              skillName="Next JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-nodejs-logo.svg"
+              skillName="Node JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-expressjs-logo.svg"
+              skillName="Express JS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-postgresql-logo.svg"
+              skillName="PostgreSQL"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-mongodb-logo.svg"
+              skillName="MongoDB"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-git-logo.svg"
               skillName="Git"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-socketio.svg"
-              skillName="Socket.IO"
+              imageURL="/landing-page/skills/skills-angular-logo.svg"
+              skillName="Angular 2+"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-sass.svg"
-              skillName="Sass"
+              imageURL="/landing-page/skills/skills-html-logo.svg"
+              skillName="HTML 5"
             />
 
             <SkillCard
-              imageURL="/landing-page/skills-storybook.svg"
-              skillName="Storybook"
+              imageURL="/landing-page/skills/skills-css-logo.svg"
+              skillName="CSS 3"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-tailwind-logo.svg"
+              skillName="Tailwind CSS"
+            />
+
+            <SkillCard
+              imageURL="/landing-page/skills/skills-bootstrap-logo.svg"
+              skillName="Bootstrap 4"
+            />
+            <SkillCard
+              imageURL="/landing-page/skills/skills-socketio-logo.svg"
+              skillName="Socket IO"
             />
           </div>
         </div>

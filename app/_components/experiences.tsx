@@ -15,10 +15,20 @@ function Experiences({ sectionId }: Props) {
 
           <div className="w-full flex flex-col gap-8 pt-5">
             <ExperienceCard
+              companyLogoURL="/landing-page/bta-logo.png"
+              companyName="Brandtouch & Analytics"
+              jobRoleName="Fullstack Developer"
+              jobDescription="As a Fullstack Developer at Brandtouch & Analytics, I leveraged Angular 10, Node.js, Express.js, SQL Server, and MongoDB to develop a video calling platform aimed at enhancing online shopping experiences. This innovative product enabled users to shop online with the assistance of real-time video calls. Additionally, I created and optimized dashboards for effective data visualization and user interaction."
+              jobDuration="Feb 2022 - May 2023"
+              fullBlackVariant={false}
+              grayVariant={true}
+            />
+
+            <ExperienceCard
               companyLogoURL="/landing-page/tikao-logo.webp"
-              companyName="Tikao AI"
-              jobRoleName="FrontEnd Developer"
-              jobDescription="Ut non mi mattis, volutpat neque et, sagittis nulla. Sed eget congue est, quis placerat enim. Sed ut condimentum est, nec eleifend ligula. Nam cursus enim sed maximus malesuada. Aenean pellentesque fermentum libero ac pellentesque. Phasellus ornare tincidunt nunc, at semper erat posuere at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+              companyName="Tikao"
+              jobRoleName="Fullstack Developer"
+              jobDescription="In my subsequent role as a Fullstack Developer, I utilized Next.js (React.js), Node.js, and PostgreSQL to create an innovative platform that provides sustainability scores to brands. This platform was designed to analyze data comprehensively, offering brands actionable insights to enhance their sustainability practices. Additionally, I worked on developing a consumer-facing app that helps users make sustainable choices."
               jobDuration="Jun 2023 - May 2024"
               fullBlackVariant={true}
               grayVariant={false}
@@ -33,16 +43,6 @@ function Experiences({ sectionId }: Props) {
               fullBlackVariant={false}
               grayVariant={true}
             /> */}
-
-            <ExperienceCard
-              companyLogoURL="/landing-page/bta-logo.png"
-              companyName="BrandTouch India"
-              jobRoleName="Frontend Developer"
-              jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a mauris dapibus, faucibus enim et, mattis orci. Nulla convallis tellus ac enim facilisis lobortis. Vestibulum interdum massa non massa iaculis, vel rhoncus erat ullamcorper. Vivamus euismod id metus a posuere. Proin pharetra sagittis odio, in porttitor purus tincidunt at. Fusce consequat odio sit amet sapien feugiat scelerisque. Morbi quis magna sem. Sed id arcu eget orci ullamcorper semper. Nam tristique mauris sit amet gravida dapibus. Nam quis nisi tempor, finibus mi eu, placerat dui. Fusce sed eros pharetra nulla interdum egestas."
-              jobDuration="Feb 2022 - May 2023"
-              fullBlackVariant={false}
-              grayVariant={true}
-            />
           </div>
         </div>
       </div>
