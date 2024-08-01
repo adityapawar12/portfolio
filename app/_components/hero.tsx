@@ -8,7 +8,7 @@ function Hero({ sectionId }: Props) {
   return (
     <section id={sectionId}>
       <div className="hidden lg:block md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl mx-auto">
-        <div className="lg:h-[28rem] xl:h-[32rem] mx-6 bg-[url('/landing-page/hero-image.png')] bg-no-repeat bg-contain bg-right-bottom">
+        <div className="lg:h-[28rem] xl:h-[32rem] mx-6 bg-[url('/landing-page/hero/hero-image.png')] bg-no-repeat bg-contain bg-right-bottom">
           <div className="h-full w-2/5 xl:w-1/2 flex items-start flex-col justify-center gap-4 py-12">
             <h2 className="font-sora text-3xl leading-[46px] xl:text-5xl xl:leading-[66px] font-normal">
               <span>
@@ -38,7 +38,7 @@ function Hero({ sectionId }: Props) {
       </div>
 
       <div className="max-md:hidden block lg:hidden mx-auto">
-        <div className="h-[24rem] mx-6 bg-[url('/landing-page/hero-image.png')] bg-no-repeat bg-contain bg-right-bottom">
+        <div className="h-[24rem] mx-6 bg-[url('/landing-page/hero/hero-image.png')] bg-no-repeat bg-contain bg-right-bottom">
           <div className="h-full w-2/4 flex items-start flex-col justify-center gap-4 py-12">
             <h2 className="font-sora text-3xl leading-[40px] font-normal">
               <span>
@@ -70,7 +70,7 @@ function Hero({ sectionId }: Props) {
       <div className="block md:hidden px-4">
         <div className="w-full">
           <Image
-            src={"/landing-page/hero-image-mob.png"}
+            src={"/landing-page/hero/hero-image-mob.png"}
             alt="Hero Image"
             className="w-full h-auto mt-4 sm:mt-8 max-w-md mx-auto"
             width={342}

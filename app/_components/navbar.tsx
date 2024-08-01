@@ -33,7 +33,7 @@ function Navbar({ sectionId }: Props) {
         <Button className="bg-black text-white rounded-sm px-6 py-4">
           Resume
           <Image
-            src={"/landing-page/download-icon.svg"}
+            src={"/landing-page/navbar/download-icon.svg"}
             alt="Picture of the author"
             className="ml-2 h-4 w-auto"
             width={20}
@@ -48,7 +48,7 @@ function Navbar({ sectionId }: Props) {
         <Sheet>
           <SheetTrigger>
             <Image
-              src={"/landing-page/hamburger-menu.svg"}
+              src={"/landing-page/navbar/hamburger-menu.svg"}
               alt="Picture of the author"
               width={27}
               height={18}
@@ -72,7 +72,7 @@ function Navbar({ sectionId }: Props) {
                 <a>
                   Resume
                   <Image
-                    src={"/landing-page/download-icon.svg"}
+                    src={"/landing-page/navbar/download-icon.svg"}
                     alt="Picture of the author"
                     className="ml-2 h-4 w-auto"
                     width={20}

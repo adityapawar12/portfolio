@@ -3,6 +3,7 @@ import Experiences from "./_components/experiences";
 import Footer from "./_components/footer";
 import Hero from "./_components/hero";
 import Navbar from "./_components/navbar";
+import Projects from "./_components/projects";
 import Skills from "./_components/skills";
 
 function Home() {

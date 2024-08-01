@@ -11,7 +11,7 @@ function AboutMe({ sectionId }: Props) {
         <div className="py-20 px-6 w-full flex flex-row justify-center items-start">
           <div className="w-1/2 flex justify-center items-center">
             <Image
-              src={"/landing-page/about-me-banner.png"}
+              src={"/landing-page/about-me/about-me-banner.png"}
               alt={`About Me Section Image`}
               className="w-auto h-[30rem] xl:h-[32rem]"
               width={525}
@@ -49,7 +49,7 @@ function AboutMe({ sectionId }: Props) {
         <div className="py-8 sm:py-12 md:py-16 px-6">
           <div className=" flex justify-center items-center">
             <Image
-              src={"/landing-page/about-me-banner.png"}
+              src={"/landing-page/about-me/about-me-banner.png"}
               alt={`About Me Section Image`}
               className="w-auto h-auto"
               width={525}
