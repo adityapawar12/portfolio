@@ -10,6 +10,11 @@ function ContactMe({ sectionId }: Props) {
           <h2 className="font-sora font-normal text-5xl text-black text-center py-5">
             My <b className="font-extrabold">Contact</b>
           </h2>
+
+          <div className="w-full flex flex-row">
+            <div className="w-1/2">form</div>
+            <div className="w-1/2">text</div>
+          </div>
         </div>
       </div>
 
@@ -18,6 +23,11 @@ function ContactMe({ sectionId }: Props) {
           <h2 className="font-sora font-normal text-3xl sm:text-4xl md:text-5xl text-black text-center py-5">
             My <b className="font-extrabold">Contact</b>
           </h2>
+        </div>
+
+        <div className="w-full flex flex-col">
+          <div className="w-full">form</div>
+          <div className="w-full">text</div>
         </div>
       </div>
     </section>

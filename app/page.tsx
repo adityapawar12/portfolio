@@ -1,9 +1,9 @@
 import AboutMe from "./_components/about-me";
+import ContactMe from "./_components/contact-me";
 import Experiences from "./_components/experiences";
 import Footer from "./_components/footer";
 import Hero from "./_components/hero";
 import Navbar from "./_components/navbar";
-import Projects from "./_components/projects";
 import Skills from "./_components/skills";
 
 function Home() {
@@ -19,11 +19,11 @@ function Home() {
 
       <AboutMe sectionId={"aboutMe"} />
 
-      {/* <Projects sectionId={"myProjects"} />
+      {/* <Projects sectionId={"myProjects"} /> */}
 
-      <Testimonials sectionId={"myTestimonials"} />
+      {/* <Testimonials sectionId={"myTestimonials"} /> */}
 
-      <ContactMe sectionId={"myContact"} /> */}
+      {/* <ContactMe sectionId={"myContact"} /> */}
 
       <Footer sectionId={"footer"} />
     </main>

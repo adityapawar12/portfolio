@@ -64,7 +64,7 @@ function Skills({ sectionId }: Props) {
               skillName="Angular 2+"
             />
 
-            <SkillCard
+            {/* <SkillCard
               imageURL="/landing-page/skills/skills-html-logo.svg"
               skillName="HTML 5"
             />
@@ -86,7 +86,7 @@ function Skills({ sectionId }: Props) {
             <SkillCard
               imageURL="/landing-page/skills/skills-socketio-logo.svg"
               skillName="Socket IO"
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@ function Skills({ sectionId }: Props) {
               skillName="Angular 2+"
             />
 
-            <SkillCard
+            {/* <SkillCard
               imageURL="/landing-page/skills/skills-html-logo.svg"
               skillName="HTML 5"
             />
@@ -170,7 +170,7 @@ function Skills({ sectionId }: Props) {
             <SkillCard
               imageURL="/landing-page/skills/skills-socketio-logo.svg"
               skillName="Socket IO"
-            />
+            /> */}
           </div>
         </div>
       </div>
