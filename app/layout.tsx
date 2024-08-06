@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Aditya Pawar | Fullstack Developer",
     description:
       "Aditya Pawar is a passionate Fullstack Developer based in Mumbai, specializing in React.js and Node.js. Explore my portfolio to see my projects and skills in web development.",
-    url: "https://protfolio-self-iota.vercel.app/",
+    url: "https://adityapawar.vercel.app/",
   },
   twitter: {
     title: "Aditya Pawar | Fullstack Developer",
