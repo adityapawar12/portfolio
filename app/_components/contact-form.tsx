@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useToast } from "@/components/ui/use-toast";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
 import { useForm } from "react-hook-form";
@@ -50,12 +51,25 @@ function ContactForm() {
     },
   });
 
+  const { toast } = useToast();
+
   const { isSubmitting } = form.formState;
 
-  function onSubmit(values: z.infer<typeof formSchema>) {
-    axios.post("/api/contact-me", values).then(
-      (response) => {},
-      (error) => {}
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    await axios.post("/api/contact-me", values).then(
+      (response) => {
+        form.reset();
+        toast({
+          title: "Thank you for reaching out!",
+          description: "Your message has been successfully submitted.",
+        });
+      },
+      (error) => {
+        toast({
+          title: "There was an unexpected error!",
+          description: "Refresh and try again.",
+        });
+      }
     );
   }
 

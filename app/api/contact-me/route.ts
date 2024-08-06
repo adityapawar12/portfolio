@@ -6,7 +6,7 @@ export async function POST(req: Request) {
   try {
     const data = await req.json();
     const { data: emailData, error } = await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>",
+      from: "Protfolio Contact <onboarding@resend.dev>",
       to: ["adityapawar743.ap5@gmail.com"],
       subject: "Contacted from protfolio!",
       html: `<!DOCTYPE html>
@@ -82,7 +82,7 @@ export async function POST(req: Request) {
             <p class="message">${data.query}</p>
         </div>
         <div class="footer">
-            <p>&copy; 2024 Your Portfolio</p>
+            <p>&copy; 2024 Aditya Pawar</p>
         </div>
     </div>
 </body>
