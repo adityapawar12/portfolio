@@ -23,7 +23,7 @@ function Home() {
 
       {/* <Testimonials sectionId={"myTestimonials"} /> */}
 
-      {/* <ContactMe sectionId={"myContact"} /> */}
+      <ContactMe sectionId={"myContact"} />
 
       <Footer sectionId={"footer"} />
     </main>
