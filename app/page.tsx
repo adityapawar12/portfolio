@@ -13,17 +13,17 @@ function Home() {
 
       <Hero sectionId={"hero"} />
 
-      <Skills sectionId={"mySkills"} />
+      <Skills sectionId={"my-skills"} />
 
-      <Experiences sectionId={"myExperience"} />
+      <Experiences sectionId={"my-experience"} />
 
-      <AboutMe sectionId={"aboutMe"} />
+      <AboutMe sectionId={"about-me"} />
 
       {/* <Projects sectionId={"myProjects"} /> */}
 
       {/* <Testimonials sectionId={"myTestimonials"} /> */}
 
-      <ContactMe sectionId={"myContact"} />
+      <ContactMe sectionId={"contact-me"} />
 
       <Footer sectionId={"footer"} />
     </main>

@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 interface Props {
   sectionId: string;
@@ -17,29 +18,34 @@ function Navbar({ sectionId }: Props) {
 
         <ul className="flex flex-row justify-start items-center gap-8">
           <li>
-            <a>About Me</a>
+            <Link href="/#my-skills">Skills </Link>
           </li>
           <li>
-            <a>Skills</a>
+            <Link href="/#my-experience">Experiences </Link>
           </li>
           <li>
-            <a>Project</a>
+            <Link href="/#about-me">About Me </Link>
           </li>
           <li>
-            <a>Contact me</a>
+            <Link href="/#contact-me">Contact me </Link>
           </li>
         </ul>
 
-        <Button className="bg-black text-white rounded-sm px-6 py-4">
-          Resume
-          <Image
-            src={"/landing-page/navbar/download-icon.svg"}
-            alt="Picture of the author"
-            className="ml-2 h-4 w-auto"
-            width={20}
-            height={20}
-          />
-        </Button>
+        <Link
+          href="https://drive.google.com/uc?export=download&id=1zs8cudn4oPrGf6_WcRXbpa6ljZcBFjGx"
+          download="your-file-name.pdf"
+        >
+          <Button className="bg-black text-white rounded-sm px-6 py-4">
+            Resume
+            <Image
+              src={"/landing-page/navbar/download-icon.svg"}
+              alt="Picture of the author"
+              className="ml-2 h-4 w-auto"
+              width={20}
+              height={20}
+            />
+          </Button>
+        </Link>
       </header>
 
       <header className="flex md:hidden flex-row justify-between py-4 px-4 mx-auto">
@@ -57,19 +63,23 @@ function Navbar({ sectionId }: Props) {
           <SheetContent>
             <ul className="flex flex-col justify-stretch mt-4 items-start gap-8">
               <li className="w-full">
-                <a>About Me</a>
+                <Link href="/#my-skills">Skills </Link>
               </li>
               <li className="w-full">
-                <a>Skills</a>
+                <Link href="/#my-experience">Experiences </Link>
               </li>
               <li className="w-full">
-                <a>Project</a>
+                <Link href="/#about-me">About Me </Link>
               </li>
               <li className="w-full">
-                <a>Contact me</a>
+                <Link href="/#contact-me">Contact me </Link>
               </li>
               <li className="w-full">
-                <a>
+                <Link
+                  href="https://drive.google.com/uc?export=download&id=1SVenQ1suiep4XdGg3vhCktOlL8zlGa_D"
+                  download="aditya-pawar-resume.pdf"
+                  className="bg-black text-white rounded-sm px-6 py-4"
+                >
                   Resume
                   <Image
                     src={"/landing-page/navbar/download-icon.svg"}
@@ -78,7 +88,7 @@ function Navbar({ sectionId }: Props) {
                     width={20}
                     height={20}
                   />
-                </a>
+                </Link>
               </li>
             </ul>
           </SheetContent>
